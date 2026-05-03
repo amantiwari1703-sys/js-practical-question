@@ -1,10 +1,11 @@
-let nums=[10,20,30];
-let copy =[...nums];
-console.log(copy);
-let a=[1,2];
-let b=[3,4];
-let merged =[...a,...b];
-console.log(merged);
+let nums=[30,10,20];
+nums.sort();
+console.log(nums);
+let num=[10,20,30];
+num.length=0;
+console.log(num);
+
+
 
 
 
