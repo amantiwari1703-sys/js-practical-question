@@ -1,11 +1,13 @@
-var num=1;
-switch(num){
-    case 1:
+var name=prompt("enter the name");
+
+switch(name){
+    case "aman" :
         console.log("case one");
         break;
-    case 2:
+        
+    case "ankit":
         console.log("case two");
-    case 3:
+    case "ajay":
         console.log("case three");
 }    
 
