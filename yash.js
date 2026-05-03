@@ -1,13 +1,13 @@
-var name=prompt("enter the name");
+var num=parseInt(prompt("enter the num"));
 
-switch(name){
-    case "aman" :
+switch(num){
+    case 1 :
         console.log("case one");
         break;
         
-    case "ankit":
+    case 2:
         console.log("case two");
-    case "ajay":
+    case 2:
         console.log("case three");
 }    
 
